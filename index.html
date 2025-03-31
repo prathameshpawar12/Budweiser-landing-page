@@ -5,59 +5,142 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <title>Fanta ka website</title>
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Gravitas+One&family=Lilita+One&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet"><link rel="stylesheet" href="style.css">
+    <title>Budweiser</title>
 </head>
 <body>
     <div id="main">
         <nav>
-            <a href="#">Logo</a>
-            <div class="cntr-nav">
+            <a href="#" id="logoa"><img id="blogo" src="Assets/budwiser-logo.png" alt=""></a>
+            <div class="cntr-nav" id="menu">
                 <a href="#">Home</a>
-                <a href="#">Products</a>
-                <a href="#">Shop</a>
-                <a href="#">Contact</a>
+                <a href="#shop">Shop</a>
+                <a href="#products">Products</a>
+                <a href="#contact">Contact</a>
             </div>
-            <i class="ri-menu-fill"></i>
+            <a id="nava">| Find your bud |</a>
+
+            <div class="hamburger" onclick="toggleMenu()">
+               
+                <i class="ri-menu-line" id="menu-icon"></i> 
+            </div>
         </nav>
         <div class="one">
-            <h1>FANTA</h1>
-            <img id="orange-cut" src="Assets/orange2.png" alt="">
-            <img id="fanta" src="Assets/fanta.png" alt="">
-            <img id="orange" src="Assets/orange.webp" alt="">
-            <img id="leaf" src="Assets/leaf.webp" alt="">
-            <img id="leaf2" src="Assets/leaf2.png" alt="">
-            <img id="leaf3" src="Assets/coconoutleaf.png" alt="">
+            <h1>BUDWEISER</h1>
+            <h2>| Find your bud |</h2>
+            <img id="beerglass" src="Assets/glass.png" alt="">
+            <img id="bwhite" src="Assets/budwiser-white.png" alt="">
+            <img id="barley" src="Assets/barley.png" alt="">
+            <img id="wheat" src="Assets/wheat.webp" alt="">
+            <img id="rice" src="Assets/rice.webp" alt="">
+            <img id="water" src="Assets/water.webp" alt="">
+            <img id="pomo" src="Assets/pomo.webp" alt="">
         </div>
-        <div class="two">
+
+        <div class="two" id="shop">
             <div class="lft-two">
-                <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-                    <path fill="#e04428" d="M41.5,-59.5C49.8,-51.1,49.7,-33.6,50.7,-19.2C51.7,-4.7,53.8,6.7,52.4,18.9C51.1,31.1,46.3,44.1,36.9,52.9C27.6,61.8,13.8,66.5,-2.5,70C-18.8,73.4,-37.7,75.6,-52.5,68.5C-67.3,61.5,-78.2,45.2,-84.5,27.1C-90.9,9,-92.7,-10.8,-80.5,-19.3C-68.3,-27.8,-42.1,-24.8,-26.3,-30.8C-10.6,-36.8,-5.3,-51.7,5.7,-59.5C16.6,-67.3,33.2,-68,41.5,-59.5Z" transform="translate(100 100)" />
-                  </svg>
+                <h1 id="ingreh1">INGREDEINTS</h1>
+              <div class="ingre">
+                <div class="inner"><h1>RICE</h1></div>
+                <div class="inner"><h1>BARLEY</h1></div>
+                <div class="inner"><h1>WATER</h1></div>
+                <div class="inner"><h1>HOPS</h1></div>  
+              </div> 
             </div>
+            <div class="two-mid"></div>
             <div class="rght-two">
-                <h1>Flavour Updated</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam, excepturi sed, itaque placeat id natus soluta veniam obcaecati qui a laborum laboriosam dolorem illum labore sit, voluptates commodi neque dolores tempore temporibus deleniti? Nobis, ratione hic error quis cum neque nulla laudantium nostrum sit nihil dolorum quisquam enim quaerat, eaque ex sequi, harum totam quia non! Labore, neque! Amet voluptatem illo similique recusandae! Ex quaerat quibusdam asperiores, ducimus tempore magni labore. Tenetur voluptas, quos ex repellendus provident mollitia laboriosam adipisci alias a impedit, cum accusamus rerum delectus eaque facilis veniam quia laborum incidunt ea assumenda! Eos magni aspernatur quod distinctio.</p>
+                <h1>KING OF BEERS</h1>
+                <p>Budweiser is a medium-bodied, flavorful, crisp American-style lager. It is brewed with the best barley malt and a blend of pre
+                    mium hop varieties.</p>
+                    <h3>Available sizes</h3>
+                <img id="bottles" src="Assets/sizes.png" alt="">
             </div>
         </div>
-        <div class="three">
+
+        <div class="three" id="products">
             <div class="card">
-                <img class="lemon lemon1" src="Assets/lemon.webp" alt="">
-                <img id="cocacola" src="Assets/cocacola.png" alt="">
-                <h1>CocaCola</h1>
-                <button>Buy Now</button>
+                
+                <img id="bblack" src="Assets/budwiser-black.png" alt="">
+                <h1>BUDWEISER <br>ORIGINAL </h1>
+                
             </div>
             <div class="card">
-                <h1>Fanta</h1>
-                <button>Buy Now</button>
+                <h1>BUDWEISER <br>SELECT </h1>
+               
             </div>
             <div class="card">
-                <img class="lemon lemon2" src="Assets/lemon.webp" alt="">
-                <img id="pepsi" src="Assets/pepsi.png" alt="">
-                <h1>Pepsi</h1>
-                <button>Buy Now</button>
+               
+                <img id="bzero" src="Assets/budwiser-zero.png" alt="">
+                <h1>BUDWEISER <br> ZERO</h1>
+               
+            </div>
+
+            <div class="card">
+               
+                <img id="bgray" src="Assets/budwiser-gray.png" alt="">
+                <h1>BUDWEISER <br> SELECT 55</h1>
+                
             </div>
         </div>
+        <!-- this div is for small screen -->
+        <div class="three-images">
+            <h1 class="sss">OUR PRODUCTS</h1>
+            <div class="white-bud">
+                <div class="white-budim"></div>
+                <h1>BUDWEISER <br> ZERO</h1>
+            </div>
+            <div class="three-images-inner">
+                 <img class="teens bb" src="Assets/budwiser-black.png">
+                 <h1>BUDWEISER <br> SELECT</h1>
+            </div>
+            <div class="three-images-inner">
+                 <img class="teens bz" src="Assets/budwiser-zero.png">
+                 <h1>BUDWEISER <br> ORIGINAL</h1>
+            </div>
+            <div class="three-images-inner">
+                 <img class="teens bg" src="Assets/budwiser-gray.png">
+                 <h1>BUDWEISER <br> SELECT 55</h1>
+            </div>
+            
+           
+           
+           
+        </div>
+
+        <section id="contact">
+            <div class="contact-container">
+                
+                <div id="contact1">
+                    <div id="imagelogo">
+                        <img src="Assets/logo-footer.png" alt="">
+                    </div>
+                    <div class="social-links">
+                        <a href="#">Facebook</a>
+                        <a href="#">Twitter</a>
+                        <a href="#">Instagram</a>
+                    </div>
+                    <div id="contact1p">
+                        <p>ALWAYS ENJOY RESPONSIBLY. © 2020 ANHEUSER-BUSCH, BUDWEISER® LAGER BEER, ST. LOUIS, MO.</p>
+                        <p>DO NOT SHARE THIS CONTENT WITH MINORS.</p>
+                    </div>
+                </div>
+
+                <div id="contact2">
+                    <div id="contact2h3">
+                        <a class="ahover">BETTERWORLD</a>
+                        <a class="ahover">COMPANY</a>
+                        <a class="ahover">PRODUCTS</a>
+                    </div>
+                    <div id="contact2a">
+                        <a class="a2hover" href="">Privacy Policy</a>
+                        <a class="a2hover"  href="">Responsible Consumption</a>
+                        <a class="a2hover"  href="">Terms and Conditions</a>
+                        <a class="a2hover"  href="">Cookies Settings</a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
     </div>
 
 
