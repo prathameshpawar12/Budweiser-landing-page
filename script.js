@@ -70,7 +70,7 @@ window.onload = function () {
             }
         });
     
-        tl.to("#bwhite", {rotate: "90deg", width: "38%", top: "130%", left: "31%" }, "sizes")
+        tl.to("#bwhite", {rotate: "90deg", width: "38%", top: "123%", left: "31%" }, "sizes")
           .to("#wheat", { top: "115%", rotate: "0deg", left: "35%" }, "sizes")
           .to("#rice", { top: "115%", rotate: "0deg", left: "10%" }, "sizes")
           .to("#water", { top: "115.4%", rotate: "0deg", left: "60%" }, "sizes")
@@ -87,7 +87,7 @@ window.onload = function () {
     
            
     
-            tl2.to("#bwhite", {rotate: "360deg", width: "33%", top: "216%", left: "33%", duration: 1 }, "ca");
+            tl2.to("#bwhite", {rotate: "360deg", width: "33%", top: "212%", left: "33%", duration: 1 }, "ca");
     });
 
     

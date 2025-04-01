@@ -725,6 +725,8 @@ button:hover {
         color: #cf0a2c;
         font-size: 6vw;
         font-family: "Concert One", sans-serif;
+    }.rght-two img{
+        margin-bottom: 70px;
     }
     .three-images{
         display: flex;
@@ -736,7 +738,7 @@ button:hover {
         background-color: black;
     }
     .sss{
-        margin-top: 60px;
+       
        
         
     }
